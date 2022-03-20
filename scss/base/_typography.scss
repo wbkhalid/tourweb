@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-grey;
+   
+  
+  }
+
+
+.heading-primary{
+    text-transform: uppercase;
+    color: #fff;
+  
+    &--main{
+      display: block;
+      font-size: 6rem;
+      letter-spacing: 3rem;
+      font-weight: 400;
+      animation-name: moveleft;
+      animation-duration: 3s;
+      animation-timing-function: ease-out;
+    
+    }
+    
+    &--sub{
+      display: block;
+      font-size: 2.5rem;
+      letter-spacing: 1.2rem;
+      font-weight: 400;
+      font-weight: bold;
+      animation: moveright 3s ease-in;
+      margin-bottom: 5rem;
+    
+    }
+  
+  }

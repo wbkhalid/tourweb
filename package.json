@@ -1,0 +1,22 @@
+{
+  "name": "tourweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass scss/main.scss css/style.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbkch/tourweb.git"
+  },
+  "author": "wbk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbkch/tourweb/issues"
+  },
+  "homepage": "https://github.com/wbkch/tourweb#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
