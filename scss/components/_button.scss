@@ -1,6 +1,5 @@
 .btn{
-
-    &:link,
+  &:link,
   &:visited{
     text-decoration: none;
     border-radius: 10rem;
@@ -32,9 +31,7 @@
   
     &::after{
       background-color: #fff;
-    
     }
-  
   }
   
   &::after{
@@ -48,13 +45,11 @@
     left: 0rem;
     z-index: -1;
     transition: all .4s;
-  
   }
   
   &--animate{
     animation: movebtn 3s ease-out 1s;
     animation-fill-mode: backwards;
-  
   }
   }
 
@@ -75,8 +70,7 @@
       background-color: $color-primary;
       color: $color-white;
       box-shadow: 0 1rem 2rem rgba($color-black, .15);
-      transform: translateY(-4px);
-
+      transform: translateY(-3px);
     }
 
     &:active{
