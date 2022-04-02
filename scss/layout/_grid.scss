@@ -23,4 +23,14 @@
     }
 
 
+    .col-1-of-4{
+        width: calc((100% - #{$gutter-horizontal})/5);
+        float: left;
+
+        &:not(:last-child){
+            margin-right: $gutter-horizontal;
+        }
+        
+    }
+
 }
